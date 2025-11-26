@@ -95,7 +95,7 @@ export function AthleteDashboard({ user, onLogout, forms, submissions, setSubmis
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-20">
               <div className="flex items-center gap-4">
-                <div className="p-3 rounded-xl" style={{ background: 'linear-gradient(135deg, #006aff 0%, #0052cc 100%)' }}>
+                <div className="p-3 rounded-xl" style={{ background: '#006aff' }}>
                   <FileText className="size-6 text-white" />
                 </div>
                 <div>
