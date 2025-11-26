@@ -125,7 +125,7 @@ export function AthleteDashboard({ user, onLogout, forms, submissions, setSubmis
                   <div 
                     className="size-24 rounded-full flex items-center justify-center"
                     style={{ 
-                      background: 'linear-gradient(135deg, #006aff 0%, #0052cc 100%)'
+                      background: '#006aff'
                     }}
                   >
                     <div className="text-white text-center">
@@ -230,7 +230,7 @@ export function AthleteDashboard({ user, onLogout, forms, submissions, setSubmis
                           size="sm"
                           onClick={() => setSelectedFormId(form.id)}
                           className="rounded-xl"
-                          style={{ background: 'linear-gradient(135deg, #006aff 0%, #0052cc 100%)' }}
+                          style={{ background: '#006aff' }}
                         >
                           Submit Form
                         </Button>
