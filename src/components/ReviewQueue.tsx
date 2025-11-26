@@ -93,7 +93,7 @@ export function ReviewQueue({ submissions, setSubmissions, forms }: ReviewQueueP
                         size="sm"
                         onClick={() => setSelectedSubmission(submission.id)}
                         className="rounded-xl ml-4"
-                        style={{ background: 'linear-gradient(135deg, #006aff 0%, #0052cc 100%)' }}
+                        style={{ background: '#006aff' }}
                       >
                         Review & Approve
                       </Button>
@@ -164,7 +164,7 @@ export function ReviewQueue({ submissions, setSubmissions, forms }: ReviewQueueP
             <Button 
               onClick={() => selectedSubmission && handleApprove(selectedSubmission)}
               className="rounded-xl"
-              style={{ background: 'linear-gradient(135deg, #006aff 0%, #0052cc 100%)' }}
+              style={{ background: '#006aff)' }}
             >
               <CheckCircle className="size-4 mr-2" />
               Approve

@@ -29,7 +29,7 @@ export function ADDashboard({ user, onLogout, forms, setForms, submissions, setS
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center gap-4">
-              <div className="p-3 rounded-xl" style={{ background: 'linear-gradient(135deg, #006aff 0%, #0052cc 100%)' }}>
+              <div className="p-3 rounded-xl" style={{ background: '#006aff' }}>
                 <FileText className="size-6 text-white" />
               </div>
               <div>
@@ -52,7 +52,6 @@ export function ADDashboard({ user, onLogout, forms, setForms, submissions, setS
           </div>
         </div>
       </header>
-
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Tabs value={activeTab} onValueChange={setActiveTab}>
          <TabsList className="inline-flex bg-gray-50 p-1 rounded-xl border border-gray-200 space-x-4 py-2">
