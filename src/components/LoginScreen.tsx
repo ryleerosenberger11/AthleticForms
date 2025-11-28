@@ -16,10 +16,10 @@ export function LoginScreen({ onLogin }: LoginScreenProps) {
 
   // Mock users for demo
   const mockUsers: User[] = [
-    { id: "ad1", name: "Sarah Johnson", role: "ad" },
-    { id: "coach1", name: "Mike Williams", role: "coach", teamId: "team1" },
+    { id: "ad1", name: "David Daniels", role: "ad" },
+    { id: "coach1", name: "Conner Corbett", role: "coach", teamId: "team1" },
     { id: "coach2", name: "Lisa Chen", role: "coach", teamId: "team2" },
-    { id: "athlete1", name: "Alex Martinez", role: "athlete", teamId: "team1" },
+    { id: "athlete1", name: "Abby Ryan", role: "athlete", teamId: "team1" },
     { id: "athlete2", name: "Jordan Smith", role: "athlete", teamId: "team1" },
     { id: "athlete3", name: "Taylor Brown", role: "athlete", teamId: "team2" },
     { id: "athlete4", name: "Casey Davis", role: "athlete", teamId: "team2" },
