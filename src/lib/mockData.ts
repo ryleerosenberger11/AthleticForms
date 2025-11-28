@@ -39,7 +39,7 @@ export const mockTeams: Team[] = [
 ];
 
 export const mockAthletes: Athlete[] = [
-  { id: "athlete1", name: "Alex Martinez", teamId: "team1", email: "alex@school.edu" },
+  { id: "athlete1", name: "Abby Adams", teamId: "team1", email: "alex@school.edu" },
   { id: "athlete2", name: "Jordan Smith", teamId: "team1", email: "jordan@school.edu" },
   { id: "athlete3", name: "Taylor Brown", teamId: "team2", email: "taylor@school.edu" },
   { id: "athlete4", name: "Casey Davis", teamId: "team2", email: "casey@school.edu" },
@@ -80,7 +80,7 @@ export const mockSubmissions: FormSubmission[] = [
     id: "sub1",
     formId: "form1",
     athleteId: "athlete1",
-    athleteName: "Alex Martinez",
+    athleteName: "Abby Adams",
     teamId: "team1",
     submittedAt: new Date("2025-02-10"),
     status: "pending",
@@ -90,7 +90,7 @@ export const mockSubmissions: FormSubmission[] = [
     id: "sub2",
     formId: "form2",
     athleteId: "athlete1",
-    athleteName: "Alex Martinez",
+    athleteName: "Abby Adams",
     teamId: "team1",
     submittedAt: new Date("2025-02-12"),
     status: "approved",
